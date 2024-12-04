@@ -1,0 +1,17 @@
+Z následující prezentace vygenerujte otázky a odpovědi. Zahrň všechny důležité informace uváděné v prezentaci.
+Každá otázka MUSÍ obsahovat alespoň jednu správnou odpověď.
+Otázky a odpovědi jsou v délce maximálně jedné věty.
+Výstupem by měl být seznam otázek a odpovědí ve formátu JSON:
+[
+    {
+        "question": "Otázka",
+        "correct": ["Správná odpověď"],
+        "wrong": ["Nesprávná odpověď", "Nesprávná odpověď"]
+    },
+    ...
+]
+
+Prezentace:
+$slides
+
+Otázky a odpovědi:
